@@ -1,5 +1,3 @@
-console.log('\nTask-6');
-
 function getFirstElement<T>(arr: T[]): T {
   return arr[0];
 }

@@ -1,5 +1,3 @@
-console.log('\nTask-5');
-
 function logStatus(status: 'loading' | 'success' | 'error'): void {
   if (status === "loading") {
     console.log("Loading...");

@@ -1,5 +1,3 @@
-console.log('\nTask-2');
-
 interface Product {
   readonly id: number;
   title: string;

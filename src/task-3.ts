@@ -1,5 +1,3 @@
-console.log('\nTask-3');
-
 const usernames: string[] = ["alice", "bob", "charlie"];
 
 const ratings: number[] = [4.5, 3.8, 5];
