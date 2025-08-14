@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "build": "vite build"
   },
   "devDependencies": {
     "prettier": "^3.6.2",
@@ -14,6 +15,7 @@
     "vite": "^7.0.4"
   },
   "dependencies": {
-    "axios": "^1.11.0"
+    "axios": "^1.11.0",
+    "gh-pages": "^6.3.0"
   }
 }
